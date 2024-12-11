@@ -1,4 +1,6 @@
 /*
+Guess Number Higher or Lower
+
 We are playing the Guess Game. The game is as follows:
 I pick a number from 1 to n. You have to guess which number I picked. 
 Every time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess. 
@@ -44,7 +46,7 @@ Keep Returning the result until the number that I the Computer picked matches yo
 //         return 0
 //     }
 // }
-// console.log(guessNumber(1000000), '<<< AI pick')
+// console.log(guessNumber(10000000), '<<< AI pick')
 
 
 
@@ -62,10 +64,11 @@ Keep Returning the result until the number that I the Computer picked matches yo
 
 
 
+// Have start, end and mid
+// Manipulate start/end based on result
+// Get rid of groups that you know for certain does not contain the number
 
-
-
-//Solution #2, binary search. This solution is way more efficient on larger number inputs.
+// Solution #2, binary search. This solution is way more efficient on larger number inputs.
 // function binaryGuessNumber(n) {
 //     let pick = Math.floor(Math.random() * n)
 //     let start = 1;
@@ -93,7 +96,7 @@ Keep Returning the result until the number that I the Computer picked matches yo
 //  }
 // }
 
-// console.log(binaryGuessNumber(1000), '<<< AI pick')
+// console.log(binaryGuessNumber(10000000000), '<<< AI pick')
 
 // counter to create numbers for demo
 // function counter(n) {
@@ -107,3 +110,7 @@ Keep Returning the result until the number that I the Computer picked matches yo
 // counter(20)
 
 // Binary sort demo
+/* 13
+*/
+
+// 13
